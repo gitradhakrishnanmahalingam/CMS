@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+:root { --brand:#0f766e; --ink:#1e293b; --muted:#64748b; }
+* { box-sizing:border-box; }
+body { align-items:center; background:linear-gradient(135deg,#f0fdfa,#f8fafc); color:var(--ink); display:flex; font-family:'DM Sans',Arial,sans-serif; justify-content:center; line-height:1.6; margin:0; min-height:100vh; padding:24px; }
+body > center, .utility-card { background:#fff; border:1px solid #e2e8f0; border-radius:22px; box-shadow:0 20px 45px rgba(15,23,42,.1); max-width:620px; padding:44px; text-align:center; width:100%; }
+h1,h2,h3 { font-family:'Playfair Display',Georgia,serif; font-size:clamp(28px,5vw,42px); line-height:1.15; margin:0 0 16px; }
+p { color:var(--muted); } a { color:var(--brand); font-weight:700; } label { display:block; color:var(--ink); font-size:14px; font-weight:700; text-align:left; } input,textarea { border:1px solid #cbd5e1; border-radius:10px; display:block; font:inherit; margin-top:7px; padding:12px; width:100%; } textarea { min-height:130px; resize:vertical; } button { background:var(--brand); border:0; border-radius:999px; color:#fff; cursor:pointer; font:700 15px 'DM Sans',Arial,sans-serif; padding:13px 23px; } button:hover { background:#115e59; }
