@@ -1,23 +1,21 @@
-<!DOCTYPE html>
-<title>Feedback Form</title>	
-
-<h1>Feedback Form</h1>
-
-<form method="post" action="send_mail.php">
-<p>
-<label>First Name
-<input type="text" name="first_name" required>
-</label> 
-</p>
-<p>
-<label>Email 
-<input type="email" name="email_address">
-</label>
-</p>
-<p>
-<label>Comments
-<textarea name="comments" maxlength="500"></textarea>
-</label>
-</p>
-<p><button>Submit the form</button></p>
-</form>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback | Castle Montessori School</title>
+  <link href="css/utility.css" rel="stylesheet">
+</head>
+<body>
+  <main class="utility-card">
+    <h1>Share your feedback</h1>
+    <p>We value your thoughts and will use them to make Castle Montessori even better.</p>
+    <form method="post" action="send_mail.php">
+      <p><label>First name<input type="text" name="first_name" required></label></p>
+      <p><label>Email<input type="email" name="email_address" required></label></p>
+      <p><label>Comments<textarea name="comments" maxlength="500" required></textarea></label></p>
+      <p><button type="submit">Send feedback</button></p>
+    </form>
+  </main>
+</body>
+</html>
